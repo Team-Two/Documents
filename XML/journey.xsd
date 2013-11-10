@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="NewJourney">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Journey">
+				<xs:complexType>
+					<xs:sequence minOccurs="1">
+						<xs:element name="SessionID" type="xs:string"/>
+						<xs:element name="StartLatitude" type="xs:double"/>
+						<xs:element name="StartLongditude" type="xs:double"/>
+						<xs:element name="EndLatitude" type="xs:double"/>
+						<xs:element name="EndLongditude" type="xs:double"/>
+						<xs:element name="RouteName" type="xs:string"/>
+						<xs:element name="Date" type="xs:date"/>
+						<xs:element name="Time" type="xs:time"/>
+					</xs:sequence>
+				<xs:attribute name="deviceid" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

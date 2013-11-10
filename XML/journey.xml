@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<NewJourney>
+<Journey deviceid="f0678ab567">
+	<SessionID>a0987</SessionID>
+	<StartLatitude>51.345</StartLatitude>
+	<StartLongditude>-0.567</StartLongditude>
+	<EndLatitude>51.345</EndLatitude>
+	<EndLongditude>-0.567</EndLongditude>
+	<RouteName>Billy Big Route</RouteName>
+	<Date>2013-10-16</Date>
+	<Time>17:28:00</Time>
+</Journey>
+</NewJourney>
+		

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ConfirmLocation>
+<User>
+	<DeviceID>f0678ab567</DeviceID>
+	<SessionID>a0098</SessionID>
+	<DestinationReached>true</DestinationReached>
+	<LocationOK received="true">
+		<LiftProvider name="Joe Smoke">
+			<ProviderRatings>
+				<Name>Mikey</Name>
+				<Email>mikey@sussex.ac.uk</Email>
+				<Ratings>
+					<Rating>3</Rating>
+					<Review>this is great</Review>
+					<Date>2013-10-16</Date>
+				</Ratings>
+			</ProviderRatings>
+			<ProviderRatings>
+				<Name>Mikey</Name>
+				<Email>mikey@sussex.ac.uk</Email>
+				<Ratings>
+					<Rating>4</Rating>
+					<Review>this is really great</Review>
+					<Date>2013-10-17</Date>
+				</Ratings>
+			</ProviderRatings>
+		</LiftProvider>
+		<LiftProvider name="Jenny James">
+			<ProviderRatings>
+				<Name>Michelle</Name>
+				<Email>michelle@sussex.ac.uk</Email>
+				<Ratings>
+					<Rating>3</Rating>
+					<Review>this is avergae</Review>
+					<Date>2013-10-12</Date>
+				</Ratings>
+			</ProviderRatings>
+			<ProviderRatings>
+				<Name>Mark</Name>
+				<Email>mark@sussex.ac.uk</Email>
+				<Ratings>
+					<Rating>2</Rating>
+					<Review>this is duff</Review>
+					<Date>2013-10-16</Date>
+				</Ratings>
+			</ProviderRatings>
+		</LiftProvider>
+	</LocationOK>
+</User>
+</ConfirmLocation>

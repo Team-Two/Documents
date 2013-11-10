@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SubmitTripRating>
+<TripRating deviceid="f0678ab567">
+	<SessionID>a0098</SessionID>
+	<Rating>3</Rating>
+	<Review>muts nuts</Review>
+	<Latitude>51.345</Latitude>
+	<Longditude>-0.567</Longditude>
+	<Date>2013-10-16</Date>
+	<Time>17:28:00</Time>	
+</TripRating>
+</SubmitTripRating>

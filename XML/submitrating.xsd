@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="SubmitTripRating">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="TripRating">
+				<xs:complexType>
+					<xs:sequence minOccurs="1">
+						<xs:element name="SessionID" type="xs:string"/>
+						<xs:element name="Rating" type="xs:integer"/>
+						<xs:element name="Review" type="xs:string"/>
+						<xs:element name="Latitude" type="xs:double"/>
+						<xs:element name="Longditude" type="xs:double"/>
+						<xs:element name="Date" type="xs:date"/>
+						<xs:element name="Time" type="xs:time"/>
+					</xs:sequence>
+				<xs:attribute name="deviceid" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

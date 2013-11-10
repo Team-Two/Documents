@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="ConfirmLocation">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="User" minOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="DeviceID" type="xs:string"/>
+						<xs:element name="SessionID" type="xs:string"/>
+						<xs:element name="DestinationReached" type="xs:boolean"/>
+						<xs:element name="LocationOK">
+							<xs:complexType>
+								<xs:sequence maxOccurs="unbounded">
+									<xs:element name="LiftProvider">
+										<xs:complexType>
+											<xs:sequence minOccurs="1" maxOccurs="unbounded">
+												<xs:element name="ProviderRatings">
+													<xs:complexType>
+														<xs:sequence>
+															<xs:element name="Name" type="xs:string"/>
+															<xs:element name="Email" type="xs:string"/>
+																<xs:element name="Ratings">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="Rating" type="xs:integer"/>
+																			<xs:element name="Review" type="xs:string"/>
+																			<xs:element name="Date" type="xs:date"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+														</xs:sequence>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										<xs:attribute name="name" type="xs:string"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attribute name="received" type="xs:boolean"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="deviceid" type="xs:string"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<RegisterUser>
+<User>
+	<Name>Mikey</Name>
+	<Email>Mikey@sussex.ac.uk</Email>
+	<DeviceID>f0678ab56 7</DeviceID>
+	<Password>password</Password>
+    <Date>2013-10-16</Date>
+	<Time>17:28:00</Time>
+</User>
+</RegisterUser>
