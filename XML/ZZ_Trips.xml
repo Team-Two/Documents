@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Trips>
+	<Trip>
+		<Destination>Brighton</Destination>
+		<Date>2013-10-11</Date>
+		<Time>10:00:00</Time>
+		<Lifter>Mikey</Lifter>
+	</Trip>
+	<Trip>
+		<Destination>Falmer</Destination>
+		<Date>2013-14-11</Date>
+		<Time>10:23:00</Time>
+		<Lifter>Emre</Lifter>
+	</Trip>
+	<Trip>
+		<Destination>Hove</Destination>
+		<Date>2013-15-11</Date>
+		<Time>21:30:00</Time>
+		<Lifter>Michelle</Lifter>
+	</Trip>
+</Trips>
