@@ -1,28 +1,35 @@
 <?xml version="1.0"?>
 <LifterStats>
-	<LSName>John Jones</LSName>
-	<LSAddress>1, The Street, Brighton, BN1 1RJ</LSAddress>
-	<LSPhone>01273789567</LSPhone>
-	<LSRegNo>NX56ACZ</LSRegNo>
-	<LSDistTravelled>120.00</LSDistTravelled>
-	<LSLifterCount>5</LSLifterCount>
-	<LSLifteeCount>3</LSLifteeCount>
-	<LSFeedback>
-		<FBName>Sarah Giles</FBName>
-		<FBDate>2013-10-16</FBDate>
-		<FBComment>This is great</FBComment>
-		<FBLike>true</FBLike>
-	</LSFeedback>
-	<LSFeedback>
-		<FBName>Emre</FBName>
-		<FBDate>2013-10-17</FBDate>
-		<FBComment>This is rubbish</FBComment>
-		<FBLike>false</FBLike>
-	</LSFeedback>
-	<LSFeedback>
-		<FBName>Mikey</FBName>
-		<FBDate>2013-10-11</FBDate>
-		<FBComment>This is the best ever</FBComment>
-		<FBLike>true</FBLike>
-	</LSFeedback>
+        <LSGeneralInfo>
+                <LSName>John Jones</LSName>
+                <LSAddress>1, The Street, Brighton, BN1 1RJ</LSAddress>
+                <LSPhone>01273789567</LSPhone>
+                <LSRegNo>NX56ACZ</LSRegNo>
+                <LSDistTravelled>120.00</LSDistTravelled>
+                <LSLifterCount>5</LSLifterCount>
+                <LSLifteeCount>3</LSLifteeCount>
+        </LSGeneralInfo>
+        <LSFeedbacks>
+                <Feedback>
+                        <FBName>Sarah Giles</FBName>
+                        <FBDate>2013-10-16</FBDate>
+                        <FBComment>This is great</FBComment>
+                        <FBLike>5</FBLike>
+                        <FBDislike>2</FBDislike>
+                </Feedback>
+                <Feedback>
+                        <FBName>Emre</FBName>
+                        <FBDate>2013-10-17</FBDate>
+                        <FBComment>This is rubbish</FBComment>
+                        <FBLike>5</FBLike>
+                        <FBDislike>6</FBDislike>
+                </Feedback>
+                <Feedback>
+                        <FBName>Mikey</FBName>
+                        <FBDate>2013-10-11</FBDate>
+                        <FBComment>This is the best ever</FBComment>
+                        <FBLike>8</FBLike>
+                        <FBDislike>1</FBDislike>
+                </Feedback>
+        </LSFeedbacks>
 </LifterStats>

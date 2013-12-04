@@ -1,0 +1,23 @@
+<LiftRequest>
+    <LiftReply>
+        <Destination>Brighton Station</Destination>
+        <Date>2013-04-12</Date>
+        <Time>12:33:00</Time>
+        <Liftee>Emre</Liftee>
+        <Status>Requested</Status>
+    </LiftReply>
+    <LiftReply>
+        <Destination>Brighton Station</Destination>
+        <Date>2013-04-12</Date>
+        <Time>12:33:00</Time>
+        <Liftee>Richard</Liftee>
+        <Status>Accepted</Status>
+    </LiftReply>
+    <LiftReply>
+        <Destination>Brighton Station</Destination>
+        <Date>2013-04-12</Date>
+        <Time>12:33:00</Time>
+        <Liftee>Michelle</Liftee>
+        <Status>Declineded</Status>
+    </LiftReply>
+</LiftRequest>

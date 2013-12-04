@@ -1,25 +1,32 @@
 <?xml version="1.0"?>
 <Profile>
-	<Name>John Jones</Name>
-	<DistTravelled>120.00</DistTravelled>
-	<LifterCount>5</LifterCount>
-	<LifteeCount>3</LifteeCount>
-	<Feedback>
-		<FBName>Sarah Giles</FBName>
-		<FBDate>2013-10-16</FBDate>
-		<FBComment>This is great</FBComment>
-		<FBLike>true</FBLike>
-	</Feedback>
-	<Feedback>
-		<FBName>Emre</FBName>
-		<FBDate>2013-10-17</FBDate>
-		<FBComment>This is rubbish</FBComment>
-		<FBLike>false</FBLike>
-	</Feedback>
-	<Feedback>
-		<FBName>Mikey</FBName>
-		<FBDate>2013-10-11</FBDate>
-		<FBComment>This is the best ever</FBComment>
-		<FBLike>true</FBLike>
-	</Feedback>
+        <ProfileInfo>
+                <Name>John Jones</Name>
+                <DistTravelled>120.00</DistTravelled>
+                <LifterCount>5</LifterCount>
+                <LifteeCount>3</LifteeCount>
+        </ProfileInfo>
+        <Feedbacks>
+                <Feedback>
+                        <FBName>Sarah Giles</FBName>
+                        <FBDate>2013-10-16</FBDate>
+                        <FBComment>This is great</FBComment>
+                        <FBLike>7</FBLike>
+                        <FBDislike>2</FBDislike>
+                </Feedback>
+                <Feedback>
+                        <FBName>Emre</FBName>
+                        <FBDate>2013-10-17</FBDate>
+                        <FBComment>This is rubbish</FBComment>
+                        <FBLike>3</FBLike>
+                        <FBDislike>3</FBDislike>
+                </Feedback>
+                <Feedback>
+                        <FBName>Mikey</FBName>
+                        <FBDate>2013-10-11</FBDate>
+                        <FBComment>This is the best ever</FBComment>
+                        <FBLike>9</FBLike>
+                        <FBDislike>1</FBDislike>
+                </Feedback>
+        </Feedbacks>
 </Profile>
